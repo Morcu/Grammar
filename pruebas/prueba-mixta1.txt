@@ -1,0 +1,61 @@
+
+// Uc3m - Ingenieria Informatica - 2016/2017
+// David Morcuende Cantador 100330670
+// Pablo Ramos de la Cal 100329993
+
+// Bateria de pruebas de la practica final
+// Prueba XX
+
+// Comprueba:
+// -funcion main
+// -declaracion variables globales y locales
+// -asignacion variables globales y locales
+// -if
+// -printf
+// -for
+// -variable++
+
+// Resultado esperado:
+// Imprime una lista de los numeros primos y los que no lo son los imprime con '-'
+
+
+#include <stdio.h>
+
+int a ;
+int b [5];
+int c [6][6];
+
+int funcion1 (int n, int m) 
+{
+    if(m<n){
+		printf("M es menor que N");
+	}else{
+		printf("N es menor que M");
+	}
+    return (m) ;        
+}
+
+
+int funcion ()
+{
+    puts("Esto es una funcion");
+     
+}
+
+
+main ()
+{
+	int d;
+	int e[3];
+	int f[3][3];
+	
+	int d = 0;
+	int e[d] = 2;
+	int f[3-1][1+1] = 3;
+	
+    funcion();
+	
+	d = funcion1(e[0], f[2][2]);
+	
+	printf("%d", d);
+}
